@@ -1,0 +1,503 @@
+Impromptu Google Meet Meeting - December 12
+VIEW RECORDING - 55 mins (No highlights): https://fathom.video/share/7k1S6qxp4pdNFayVcoZ8vmfSzsyQ3uuc
+
+---
+
+0:00 - Plan My Wedding Info
+  Or it's very easy, should I say, to get done over with, isn't it?
+
+0:04 - Sam (samirechchttioui@gmail.com)
+  Yes, you're right. You can be like the developer. First of all, you need a developer that stay with you and understand your needs.  So maybe you can do like one video call per day or three, five video calls for a week. Because in this type of situation, because your main business is a platform, right?  Yeah, correct, correct. So you need to make something that works really good. So it's scalable, it's really scalable. So maybe you can, because right now, if you make a marketing campaign and a lot of people like, I don't know, 20,000, 15,000 people make an account or be a new user, will actually, the website will crash because it's  It's not capable of having this type of users. That's so cool.
+
+1:07 - Plan My Wedding Info
+  But I hear you.
+
+1:09 - Sam (samirechchttioui@gmail.com)
+  Yeah, yeah, yeah. And I remember something that we had done, because actually what had happened was, I was referred to this Indian company from a guy in Silicon Valley.
+
+1:19 - Plan My Wedding Info
+  So, I don't know, you somehow think that they've been through the, you know, I don't know.
+
+1:30 - Sam (samirechchttioui@gmail.com)
+  yes, yes. So you can see here with this extension that you can see all the framework that it's using, Laravel, PHP.  Yeah, it's quite outdated. Even the UI, you can work with the design and everything, but it's a spaghetti code.  And it means that when you want to make changes, just like a little change. You can break the entire code.  You can break the entire code base, the entire file, for example, and don't be able to… when I'm asking about the… because what happened as well, sorry, actually, we wanted to install data layers for the marketing.
+
+2:16 - Plan My Wedding Info
+  So that's where I had engaged the South African developer. So when I've asked him now about it being in Laravel 8, he says, you need to look at the data layer branch.  So I said, but we had paid to upgrade the entire site to Laravel 12 before we moved to the data layers.  So he says, yes, the updated version is the data layer. Data layer is just the name of the branch.  So would the whole site be sitting under a branch, maybe? But that doesn't make sense, does it?
+
+2:52 - Sam (samirechchttioui@gmail.com)
+  No, no, that is a file. So let me show you. Let's go to GitHub on your account. account.
+
+3:14 - Plan My Wedding Info
+  So he says under the data layer branch is the updated site. Does that make sense?
+
+3:20 - Sam (samirechchttioui@gmail.com)
+  Yes, here there is two days ago, right? Yeah.
+
+3:27 - Plan My Wedding Info
+  So is that, would that be a whole site under there?
+
+3:34 - Sam (samirechchttioui@gmail.com)
+  Let me see the activity because. Okay, fix the plot error. So this is not, it's not the entire site on here, but this is just a git.  So git, it's like, it's like Facebook, but for coding. So when you. So upload a new, for example, a new post, it connects to the main post, so like you see here five months ago, because it actually...
+
+4:12 - Plan My Wedding Info
+  So does that mean that the main site is still not running off Laravel 12, it's running off Laravel 8?  Yes. Even though the branch, the data layer branch is...
+
+4:25 - Sam (samirechchttioui@gmail.com)
+  Yes, I downloaded the entire thing here, you can see download zip. I did that and I actually tried to analyze the entire code base.  So, yeah, so, like I said, this, I don't know why that type of, that, how do you call it?  Yes, that agency, that coding agency did for you. How many years ago? This is what my current developer said about...  didn't keep you got
+
+5:00 - Plan My Wedding Info
+  I've sent it to on WhatsApp. I don't know if you can make sense of it because I can't really make sense of it.  The Indian company took two years, maybe a year and a half, I think. I think with testing it ended up being.  It was a very painful process. But I was trying my best to stick exactly like you say, you want to stick with one developer.  You don't want to chop and change, chop and change.
+
+5:30 - Sam (samirechchttioui@gmail.com)
+  Yes, yes. One developer is a hard thing.
+
+5:35 - Plan My Wedding Info
+  I was really trying to... Sorry. Let me just turn my phone on silent. I was really trying to make sure that we tried to push through.
+
+5:51 - Sam (samirechchttioui@gmail.com)
+  Yes, because you see this, for example, you see her disease, stark larval, and for example this. work. Thank
+  ACTION ITEM: Send competitor tech stack analysis to Chelsea - WATCH: https://fathom.video/share/7k1S6qxp4pdNFayVcoZ8vmfSzsyQ3uuc?timestamp=362.9999
+
+6:00 - Plan My Wedding Info
+  Do you mind if I take a screenshot of that? Yes.
+
+6:05 - Sam (samirechchttioui@gmail.com)
+  That one to show the different... Yes, yes, definitely. For example, we can... This is your competitor, and when you did the screenshot, I can send the entire thing for you.  Okay.
+
+6:22 - Plan My Wedding Info
+  I think that's it. So this is your competitor.
+
+6:32 - Sam (samirechchttioui@gmail.com)
+  Let's see. For example, so this competitor exactly has used... Firebase for the app. Yes, Firebase, right? Node.js, and for the entire design, Express, Bubble.  So it's not outdated, and it's not really, like for example, like I was talking about implementing AI, so in this type of stack, in this type of stack of Laravel and PHP, it's too messy, and it's going to...
+
+7:20 - Plan My Wedding Info
+  No, completely scared you, because I felt it, I mean, my vision, and then you become, I think sort of because you've now invested the money, you sort of try and make it work, but it keeps glitching, and it keeps, you know, it wasn't the sort of, you know, the outcome that we had actually visioned for it at the end of the day.
+
+7:46 - Sam (samirechchttioui@gmail.com)
+  Yes, even for mobiles.
+
+7:47 - Plan My Wedding Info
+  The fact is that it's glitchy, even the user experience, it's glitchy. Yes, yes, you're right, you're right.
+
+7:54 - Sam (samirechchttioui@gmail.com)
+  I did that, I tried that with my girlfriend, I actually asked her to... to go to see if that's smooth and everything.  And she told me that it wasn't really smooth. So, even tried for a different position and everything. That's very cool.
+
+8:13 - Plan My Wedding Info
+  Well, I'm glad you did that. But I'm also really glad I've met you because obviously we are so focused on the business side and the growth side, and we've got a big team working on the supplier base, but we're really struggling because there's so many glitches.  We can't even get all our suppliers signed up at the moment. We've got about 5,000 suppliers waiting, but we can't even do that at the moment because we keep hitting these brick walls of errors.
+
+8:45 - Sam (samirechchttioui@gmail.com)
+  You see, your main business should be it's dead. So it should be really smooth because it's your revenue model.  A hundred percent.
+
+8:56 - Plan My Wedding Info
+  A hundred percent. are right. So,
+
+9:00 - Sam (samirechchttioui@gmail.com)
+  Let me ask you a question. So the suppliers are the revenue model, right? Yeah.
+
+9:08 - Plan My Wedding Info
+  So we formed the revenue model. And again, I think this is quite glitchy, but the idea is that we become like Airbnb, but for the wedding industry.  So we don't work like the knot where it's ad-based. We do have ad-based functionality. But it's when a supplier and a couple connect, we then take a commission.
+
+9:33 - Sam (samirechchttioui@gmail.com)
+  Okay. Okay. I understand. So what about this starter pack, the growth glow up and everything?
+
+9:42 - Plan My Wedding Info
+  This wedding CEO is just to have a support network for our wedding businesses. Okay.
+
+9:52 - Sam (samirechchttioui@gmail.com)
+  Okay. I understand. So you don't let the user pay, right? The... The couples, for example. couples, no.
+
+10:03 - Plan My Wedding Info
+  So what actually my plan was in the beginning was to have like a freemium experience for the couples. But it became too complicated with the Indians.  So I actually ended up letting it go. But the ideal would be to say couples can have a free checklist, budget tool and maybe the wedding website creator and then or the guest list and everything else on there can be a dollar a month or two dollars.  You know, like a really cheap upgrade that they can upgrade to to have access to all of the tools.
+
+10:36 - Sam (samirechchttioui@gmail.com)
+  Yes. And there is a lot of things that we can add as features, for example, maybe a couple. I don't know.  How does the wait? Yeah, guest list manager. That's what I was searching for. So how does this thing work?
+
+10:54 - Plan My Wedding Info
+  So this is these are just pages to explain what the things are. But when. When you create a profile as a couple, you then go into the dashboard, where they've got all their different, I don't know if you've managed to create a couple's profile.
+
+11:10 - Sam (samirechchttioui@gmail.com)
+  Yeah, I tried, but I didn't get any. Verification code.
+
+11:16 - Plan My Wedding Info
+  Yeah. That's strange. Did you get, did you get a. Was that to sign up as a couple? Yes, I think.
+
+11:37 - Sam (samirechchttioui@gmail.com)
+  Yes, didn't get any. Hey, for example. That's weird.
+
+11:45 - Plan My Wedding Info
+  Um, I can maybe share mine. I used that in real, but it doesn't get any.
+
+11:53 - Sam (samirechchttioui@gmail.com)
+  And nothing in your spam. Let me see. see. you. No, nothing on this panel. It's really strange. So, for example, this, this can be...  I'll just share my screen for two seconds.
+
+12:24 - Plan My Wedding Info
+  Sorry, if you don't mind, so that I can show you what it was. Because this is, again, why things are glitchy, but anyway, this is the couple's dashboard.  So, like, they've got a checklist that they can go and check off their things. They can go into their budget.  Again, this doesn't, it doesn't look really good, but I had to just accept it for what it was. The guest list, they can add in their guests so that they can keep track of their guest list.  The website builder, they can build their wedding website. guest list. guest This is their gift registry, so they can build up things that are in our shop into their gift registry.  This I wanted to create a little bit. You sort of started it. Look, this is what we get. But the wedding favorites are for things like where you can save your inspiration, you can save your suppliers that you like, you can save things you want to keep in your model.
+
+13:38 - Sam (samirechchttioui@gmail.com)
+  If you saw the video that I sent you, I created like a mood board with like, you can add the couple can add the pictures that they like, maybe get them from Pinterest, from Google.  Maybe they like address, maybe they like some location, they can add to this mood board. They can let the AI analyze the mood board, so the pictures, and the AI can search the suppliers that has the closest type of mood board.  So, for example, if they put a picture of a really cool type of location, the AI, the algorithm, can search for the exact type of location that they search for.  Yeah, and I suppose we've got like all of these blog posts and everything that they can look through.
+
+14:42 - Plan My Wedding Info
+  So this was, I wanted to become a little bit like Pinterest, where they can scroll through all the posts and ideas and things, and then they can save it.  So when they click on this heart, it should go into the dashboard, into that section that I'd shown you.  But you had really... Even the small video that you had sent me was a very, I mean, it was really great, you know, the user-friendliness of it.
+
+15:08 - Sam (samirechchttioui@gmail.com)
+  Yes, yes, that's what I tried to explain to you. So the user experience, it's the first thing that you need to focus, the user experience and the UI itself.  And by the sounds of it, the stack tech as well.
+
+15:29 - Plan My Wedding Info
+  Sorry? The stack tech.
+
+15:32 - Sam (samirechchttioui@gmail.com)
+  Yes, yes, yes, because like, for example, you right now, you click the one thing, one button and it shows the error.  I don't know, I don't know if you, yes, the error is from the database. So the database is not working correctly, for example.  And on 2025, can actually, with the advancement of technology. You ... can use, or softwares like Firebase or Supabase, and this type of errors can be really limited.  For example, the user, when they click a thing that don't actually work, they don't need to see the error itself, and they need just to see a page with, sorry, this page of the website, it doesn't work later.
+
+16:34 - Plan My Wedding Info
+  So for example, this type of things.
+
+16:37 - Sam (samirechchttioui@gmail.com)
+  But I don't understand, I know, I promise I'm feeling the pain as well, I just don't know. I don't know how, I don't know what to do at this point.
+
+16:51 - Plan My Wedding Info
+  Can I go to the… Yes, Sam? Sorry?
+
+16:55 - Sam (samirechchttioui@gmail.com)
+  What would you suggest?
+
+16:57 - Plan My Wedding Info
+  Yes. Okay. I'm
+
+17:00 - Sam (samirechchttioui@gmail.com)
+  Really, I suggest to try to save the entire platform using a stock that is modern. So, like, for example, React, you can ask JGBT if you want to be really secure about your choice because this stack, it's actually updating.
+
+17:22 - Plan My Wedding Info
+  You're paying a brand new, like paying to get the site done from scratch again.
+
+17:28 - Sam (samirechchttioui@gmail.com)
+  Yes, that will be, that will be, and with the advancement of AI, can, one developer or two developers can build, like, this entire thing in very less than two years.  You say two years? Yeah, year and a half. Yeah, yeah, yeah, sorry. So definitely less than two years, like the Indian developers.  Yeah. So... I mean, is it something, do you think...
+
+18:00 - Plan My Wedding Info
+  Is you could help with, or is it not under your radar?
+
+18:05 - Sam (samirechchttioui@gmail.com)
+  No, no, I build, I build, I am a developer myself, so I can build this type of software. I, for example, this is, I don't know if you, oh no, I'm not showing the screen, sorry.  Let me show you the screen so I can show you some things. Okay, so, yeah, we are the business, you know, we're the business brains behind it.
+
+18:38 - Plan My Wedding Info
+  The business side of it, the growth side of it is the easy side for us, but it's built on a technology platform, which we, yeah, we are not developers, so we've got to really try and find the right partner for it.
+
+18:56 - Sam (samirechchttioui@gmail.com)
+  So, for example, this is a. Does Thank This is a platform that I created myself because of the virtual tours.  That's why I get to meet you because I started this software, this SaaS, and I even started to have some lessons about how to grow a technological stack SaaS.  And I don't know why it doesn't work. Yeah, so this, no, not even showing. Okay, okay, maybe right now.  So you see React? React, yeah, yeah, yeah. And for the frameworks of the user experience, user experience, it's the thing.  Okay. that the user is seeing. So for example, this entire design. So this design is using the tech, modern stack, like you see Radix, Tailwind.
+
+20:11 - Plan My Wedding Info
+  Yeah, these all ring a bell.
+
+20:17 - Sam (samirechchttioui@gmail.com)
+  And you can see here, for UI, it's only using Bootstrap.
+
+20:26 - Plan My Wedding Info
+  No, I get you. I completely understand. I do understand a little bit of it. So I do understand that.
+
+20:34 - Sam (samirechchttioui@gmail.com)
+  Look, for example, this type of website are not really futuristic. For example, let me show you. And now I'm going to my dashboard.  I'm going to click React and show you. So React is being used in a lot, a lot, a lot of software.  Yeah.
+
+20:59 - Plan My Wedding Info
+  Yeah. want before see? Yeah. Yeah. No. Yeah. Okay.
+
+21:00 - Sam (samirechchttioui@gmail.com)
+  Like, you can see, Chojubity itself is using React, Shopify, Lovable, Cloud, DeepSeek, Stripe. Stripe itself is using React because React is the most advanced stack tech.
+
+21:14 - Plan My Wedding Info
+  And tell me, but just explain to me, because this developer in South Africa seems to think that he's upgraded it all and advancing it.  So when he says it's under a different branch, does that mean that the whole site is under a different branch?  Or is it a branch of the website that he's upgraded? No, let me go back here. Sorry, because I just don't understand that part because we paid him quite a bit to upgrade it.  So I don't even, I don't understand why it hasn't been upgraded. But he keeps saying it's because it's another, it's the data layer branch, but surely a branch.  Which is underneath the main website, or am I not understanding something there?
+
+22:08 - Sam (samirechchttioui@gmail.com)
+  Okay. So, I tried to... Let me see the thing. Sorry. Okay. Let me go back.
+
+23:24 - Plan My Wedding Info
+  Yes, I'm trying to analyze. I sent you a message with some things circled. Okay, yeah. I don't know if that makes any more sense, maybe?  It would be nice to know if I just haven't wasted money. But I 100% agree with you. think React is also definitely the way to go.  We should have, I don't know why it wasn't a part of everything from the beginning. I don't know why.  Okay, let me see.
+
+24:35 - Sam (samirechchttioui@gmail.com)
+  Even the database, it's too messy, too heavy. So, let me see.
+
+24:42 - Plan My Wedding Info
+  And is there something else that, I mean, is there a way to make it cleaner?
+
+24:50 - Sam (samirechchttioui@gmail.com)
+  Or is it just because of the size of the site?
+
+24:53 - Plan My Wedding Info
+  It can't be the size because there's other things that have that. No, so...
+
+25:01 - Sam (samirechchttioui@gmail.com)
+  Let me show you, for example, I don't know if you can see, can you see the screen?
+
+25:27 - Plan My Wedding Info
+  Yes, yeah, I can see it.
+
+25:29 - Sam (samirechchttioui@gmail.com)
+  Okay, so the type of database that there is in 2025 is or this type of database or the Firebase type of database or other type of databases, but you need a really, really good engineering of backend to understand the logic of backend and the data flow of it.  So if you don't have a backend developer and engineer and... ... ... Everything else, you need to actually use this type of services because, for example, so I don't know.
+
+26:11 - Plan My Wedding Info
+  So that it supports you in the back end.
+
+26:15 - Sam (samirechchttioui@gmail.com)
+  Yes, yes, yes. I want to show you the thing, but I don't know. It's here. Oh, yeah. It's here.  So you can see the schema. This is the schema. So it's the entire database. So you see these strings?  This is the data flow. So the data flow is, for example, where a user has, for example, you see password, hash, name.  So the password to go to this client side. You can see the client side. Yes, yes. And everything that is connected to.  So, yeah. So it's connected to me.
+
+27:00 - Plan My Wedding Info
+  What?
+
+27:01 - Sam (samirechchttioui@gmail.com)
+  It's connected in a clean way.
+
+27:04 - Plan My Wedding Info
+  Yes, you can see it's all clean.
+
+27:08 - Sam (samirechchttioui@gmail.com)
+  Everything is in place and nothing is confusing or anything else. You can see here the tables, aligned, activity logins, knowledge base.  You can actually connect the entire software of Stripe so you can have payments processing without having so much added.
+
+27:39 - Plan My Wedding Info
+  Yes, I hear you.
+
+27:43 - Sam (samirechchttioui@gmail.com)
+  So all these or for fibers, it is an alternative, but I recommend this type of software. Sam, would you know of, I mean, what would your best advice, my understanding and when I've like had meetings with the founder, Institute and everything.  Thank you. you. you. you.
+
+28:00 - Plan My Wedding Info
+  The main thing has been to find a partner in the business who's a CTO. Would you recommend that? Or how would you?  Because for me, it does make the most sense, but you've obviously got to just make sure that it's the right people to do that with.  And then we were thinking, we then register in Delaware, so that we make sure we can get the fundraising out of San Francisco.  But I wanted your, I mean, what would you advise for a tech business? Because to me, as a tech business, it makes sense to have the CTO.  You can't have a tech business without a CTO.
+
+28:40 - Sam (samirechchttioui@gmail.com)
+  Yes, yes, you're right. So I think that first of all, you need to have like, not a final product, but let me, let me ask you in this, the founder raising is from San Francisco, but you have it or you need to find a...  Venture capital or whatever you need for investment.
+
+29:05 - Plan My Wedding Info
+  No, I mean, we're still looking for the right investor, but what I wanted to do first, we've been on the investor game track and we were on Shark Tank, so we've got some good feet in the door in terms of investors already.  We've had some good conversations, but I think for me it was important to make sure that the technology side was we've got a good formation first and a registration in Delaware before we do that.
+
+29:36 - Sam (samirechchttioui@gmail.com)
+  Yes, I understand. So I think that even though you can maybe like work with React Tech and add AI, it could be really valuable because even though it gets, how do I say it?  It has some...
+
+30:05 - Plan My Wedding Info
+  It's not like we can transition over to React. We have to build from scratch, don't we?
+
+30:13 - Sam (samirechchttioui@gmail.com)
+  Yes, this type of thing I need to check really deeply because I think it's better to create something, not from scratch, but take the code and try to transform it to React and Tailwind.  And the Tailwind.js and everything. Yes, I hear you. So, yeah, not even like, for example, the database, how much people are inside the database?  Like how many users are in the database?
+
+30:46 - Plan My Wedding Info
+  Currently, we probably maybe, I want to say 400 suppliers, maybe 300 couples. On our actual offline database that we're trying to upload.  Bye. We've got about 5,000 suppliers currently, but our team is ready to do 10,000 suppliers a year, but we are just struggling.  I can't activate them right now with these problems on the platform.
+
+31:17 - Sam (samirechchttioui@gmail.com)
+  You see, I'm trying to understand. I don't know if I'm making sense.
+
+31:24 - Plan My Wedding Info
+  No, no, no. Yeah, yeah, yeah.
+
+31:26 - Sam (samirechchttioui@gmail.com)
+  So you can migrate this type of database. So you can like, for example, this 5,000 or 4,000 suppliers can be migrated.  That means that they can be moved from the database to the new database. Yes. So, uh, so it's not really, like I said, you can, I can actually understand better the website and create.
+
+32:00 - Plan My Wedding Info
+  It's literally a better version of it, because I can already see that you could have, and it does make a lot of sense with the React and everything, but my concern is if we just keep getting developers on board to pay, then it's not going to be a long-term consensus.  We need a partner, and we can make sure that when we switch to investors and we tend to use down the line, we're still ahead of the game in terms of advancements with technology.
+
+32:35 - Sam (samirechchttioui@gmail.com)
+  Yes, that's what I mean, because you can't use some third-party developers each time there is a problem, maybe for a small thing, for a little thing.  But for advancing and scaling the entire software, it's not really...
+
+32:56 - Plan My Wedding Info
+  Yeah. So... You've been very, very helpful and insightful. really appreciate that.
+
+33:06 - Sam (samirechchttioui@gmail.com)
+  If you need maybe to analyze yourself the entire codebase without any knowledge of the coding and everything, you can use some software.  Like on the show right now, you can ask it various questions, it can act like a developer, but I don't recommend you to build anything with it because you're just going to make something.
+
+33:38 - Plan My Wedding Info
+  I definitely don't. It needs to be in charge of a professional for sure. What I really wanted to understand was this guy, what, you know, what he's referring to about the different, the branch.  He keeps saying that it's on another branch, but I cannot, for me, a branch is a subfolder of the main thing, not the main thing.  screen? Thank You
+
+34:03 - Sam (samirechchttioui@gmail.com)
+  So it's not the entire thing, but it's a small thing. It's a small modification, for example. Can you see the screen?
+
+34:12 - Plan My Wedding Info
+  Yes. Okay.
+
+34:15 - Sam (samirechchttioui@gmail.com)
+  Right here, for example, this branch. Yes. You can see compare changes. Yes. You can see what has changed. You can see here.  Yeah, yeah, yeah. The green thing is the thing that he added and the red thing is the thing that you can see everything here.
+
+34:39 - Plan My Wedding Info
+  So would he have been able to change the whole site on that branch or not? No, he can't change the entire site.
+
+34:48 - Sam (samirechchttioui@gmail.com)
+  So it's a small thing. For example, let me go here in the code. This is the entire code. So this is good.  Code, it's not every time you finish to code, for example, when I finish to code myself and I push to GitHub because it means push, it means that I send the code to GitHub, it doesn't post everything in one time, but it sends only the things that has been changed.  Like, for example, I changed something about the entire platform, maybe like a small thing, like a little letter, I send it to GitHub, I push to GitHub and in GitHub you can see the branch because it has been sent.  So, yeah. So this is a tool that every developer uses. Thank you. Thank
+
+36:00 - Plan My Wedding Info
+  I think I paid him, when I paid him to update it to Laravel 11, he hasn't done it, is that correct?  Am I understanding correct?
+
+36:12 - Sam (samirechchttioui@gmail.com)
+  Yes, I don't know really, because in some places of the codebase, it's updated. But in some places, in major places, it's not really updated.  I don't know. Yeah, yeah, yeah. I know.
+
+36:34 - Plan My Wedding Info
+  I'm struggling to make sense of it, to be honest, Sam. And I don't want to really to accuse anyone, because I don't know.
+  ACTION ITEM: Install Google Antigravity; analyze codebase re: Laravel version/dependencies - WATCH: https://fathom.video/share/7k1S6qxp4pdNFayVcoZ8vmfSzsyQ3uuc?timestamp=2207.9999  Of course, I get it, I get it. I completely understand. I just don't understand it enough to be able to, you know, I just have to trust, sometimes.  Definitely.
+
+36:58 - Sam (samirechchttioui@gmail.com)
+  Thank you. If you want to look up this type of tool, it's named, it's from Google, it's named Antigravity, and you can install it, put the entire code inside this platform, that is Antigravity, I can show you how, so you close it, let me see Antigravity.
+
+37:26 - Plan My Wedding Info
+  I'll have a look and I'll, just to try and understand it a bit more.
+
+37:35 - Sam (samirechchttioui@gmail.com)
+  So wait, I did something wrong, when you, when you open Antigravity for the first time, you, you will have this folder, open folder, and this chat, this chat is like chatgbt, I don't know, you have, you use chatgbt daily or use chatgbt?
+
+37:54 - Plan My Wedding Info
+  Yeah, yeah. Okay, so, I think you were handy with it.
+
+37:59 - Sam (samirechchttioui@gmail.com)
+  that's one. So, for example, you will have this workspace that you can enter here and can ask whatever question you have.  Okay. For example, let it load. This is my developer. But I am just trying to write something. Yeah. Don't worry.  11 or 12? 11.
+
+38:50 - Plan My Wedding Info
+  Because he said some chapters are not affair with Laravel 12 or something yet, I don't know. So we couldn't do everything till Laravel 12.  those the-to-face towel. Now And then it'll pretty much do what ChatGBT does, that's very interesting here, I've made a note of that anti-gravity, yes anti-gravity it's free so there is a lot of tools but this is the this is from google so it's the most it's the best one that you can install actually very interesting so you see here it's analyzing everything yes for fast things it's really helpful yeah yeah yeah you  That's really interesting. Well, thanks Sam, you've been an amazing help, I tell you, but some sobering thoughts as well.
+
+40:23 - Sam (samirechchttioui@gmail.com)
+  Because I'm a developer myself, and I'm a founder myself, and I do not define myself as an entrepreneur, but I try to.
+
+40:36 - Plan My Wedding Info
+  I'm 19 and I try to be my best. Well, I suppose that's the power of partnerships, isn't it?
+
+40:45 - Sam (samirechchttioui@gmail.com)
+  So you can see right now, you can see the question that I asked, and he analyzed the entire codebase.  You can see analyze, search, analyze, package, JSON. Based on my analysis of the codebase, your developer has. Not updated this code base to Laravel 11.  The application is currently running on Laravel 8. It's detailed evidence from the code analysis. It gives you the actual version.  Yes, the code part, so you can see application structure and everything. You can do this yourself. So, yeah, yeah, yeah.
+
+41:26 - Plan My Wedding Info
+  I'll definitely do that.
+
+41:28 - Sam (samirechchttioui@gmail.com)
+  I'm going to go and.
+
+41:31 - Plan My Wedding Info
+  Application dependency check.
+
+41:34 - Sam (samirechchttioui@gmail.com)
+  You can see here it gives you a table. So with Laravel versions, requirements, not updated in Laravel mix, beta, legacy.  So.
+
+41:50 - Plan My Wedding Info
+  And is this all that that data layer branch? Do you think he could have moved a whole site under the data layer branch?  Yeah. Yeah. Yeah. That seems weird to do that, no?
+
+42:05 - Sam (samirechchttioui@gmail.com)
+  Yeah, I don't know, actually, I don't think too many questions, but I don't know, oops, here it goes, so I don't know, really, because it's, it's, yeah, he's using his own computer, so it can give him some information, so, so you can actually check it out, so if you want to install this type of, this type of software, you can use it yourself, even though you, sorry, Chelsea?  See you week. Bye. Bye. Bye. Bye. Thank you.
+
+43:43 - Plan My Wedding Info
+  Hello. Hi.
+
+43:45 - Sam (samirechchttioui@gmail.com)
+  Sorry Sam, my battery had died.
+
+43:48 - Plan My Wedding Info
+  Sorry. Oh, don't worry. Got too carried away.
+
+43:53 - Sam (samirechchttioui@gmail.com)
+  So, yeah, as I was saying, you can install this software yourself. Yes. It's fabulous.
+
+43:59 - Plan My Wedding Info
+  Sam. Thank
+
+44:01 - Sam (samirechchttioui@gmail.com)
+  Have a look to it, yeah, so, like I said, the best way to implement AI, to be advanced, is to use our modern stack.
+
+44:11 - Plan My Wedding Info
+  Modern stack, yeah, I hear you. Sam, do you give some thought to how you would see us working together?  If you can, if it's something under your radar, if you're able to, I would be very keen to look at trying to see what we can do.  And, I mean, let's keep having a conversation, I don't know how you feel, but I would really like to, you know, look at doing something more in depth with you in the future, if that's even an option, you're probably very busy, but I would love to see what we can do together.
+
+44:50 - Sam (samirechchttioui@gmail.com)
+  It will be really great. Like, for example, if there is the opportunity to build the whole Plan My Wedding,  or the most thing of Plan My Wedding, it's going to be like, I don't think that much, because it's a marketplace, for first of all, so it's not easy.  have some standard things that can help. Yes, yes, yes, yes, and even the entire design, we can actually understand your needs, I can actually understand what you need, we can do a daily call to understand what do you actually want to be able to build and to be advanced from your competitors, because Plan My Wedding, I think you have the strongest domain here.  in the wedding industry. Oh, really?
+
+45:57 - Plan My Wedding Info
+  I would, I don't think so. Everybody better... ... ... I mean, it would be great to, but yeah, we're getting there, but it's straightforward as well.
+
+46:08 - Sam (samirechchttioui@gmail.com)
+  Yes, it's really easy to remember, and it has some really great potential, so yeah. Yes, even the marketing strategist, and like, how do you approach the marketing and everything?  So you push ads, you post on Reddit, because for example, yesterday I tried to go to Reddit. I don't know if you know Reddit, what it is.
+
+46:45 - Plan My Wedding Info
+  I've read it, it's not very popular in Africa, but I think it is overseas, eh?
+
+46:53 - Sam (samirechchttioui@gmail.com)
+  But there is a lot of people not from Africa, but they want to... Yes, yes, yes, yes. So maybe they need help, they need couples that are like, for example, wedding planner, I must have a look at Reddit.
+  ACTION ITEM: Add Reddit community engagement to PR/marketing plan - WATCH: https://fathom.video/share/7k1S6qxp4pdNFayVcoZ8vmfSzsyQ3uuc?timestamp=2826.9999
+
+47:15 - Plan My Wedding Info
+  You can actually respond.
+
+47:17 - Sam (samirechchttioui@gmail.com)
+  I'm going to actually put that onto our radar. You can answer to these people. You can say, oh yeah, I can help you.  You give some advice. And with the advice, you can say maybe, you're not trying to push like an ad.  Yes, yes, correct.
+
+47:36 - Plan My Wedding Info
+  It's more a conversation. Yes, that's right. Like a human, like a human being.
+
+47:45 - Sam (samirechchttioui@gmail.com)
+  Yes, all of these things, I think they are the...
+
+47:49 - Plan My Wedding Info
+  I'm definitely going to put, we've got a PR strategy. We have obviously our digital marketing strategy, and those are the two we mainly...  We do have some sort of offline support, but we don't spend too much money on our offline advertising anymore.  It's not worth it. And then obviously we were trying to incorporate data layers. I've actually just held on this data layer situation for a while now because I want to get the app.  It's pointless marketing and spending all this money on advertising when our app is, you know, so glitchy and rigid.  So that's been my biggest frustration. So I've actually stopped the data layer. The guy was meant to add in data layers so that all our remarketing and everything is done properly.  So we are sitting there, but we need we need a proper platform before we... Yes, yes.
+
+48:56 - Sam (samirechchttioui@gmail.com)
+  I'm going to Google Analytics from your... Account? Yes, yes.
+
+49:02 - Plan My Wedding Info
+  So it's going to load.
+
+49:05 - Sam (samirechchttioui@gmail.com)
+  So you have, oh yeah, so you have 11,000.
+
+49:09 - Plan My Wedding Info
+  Yeah, it's come down quite a lot.
+
+49:12 - Sam (samirechchttioui@gmail.com)
+  11,000 and new users for that. And I don't know here.
+
+49:23 - Plan My Wedding Info
+  US, Singapore.
+
+49:27 - Sam (samirechchttioui@gmail.com)
+  Yes, it's really great to keep track of these things because while you build and everything, you need to have like some sort of control and everything.
+
+49:40 - Plan My Wedding Info
+  I love my data, so.
+
+49:47 - Sam (samirechchttioui@gmail.com)
+  So, yeah, so it will be really great to make it work, to create a really valid product because
+
+50:01 - Plan My Wedding Info
+  All the offline stuff, all the business stuff, we can do that, you know, we've got that under our belt, but the tech side is where we've had our pain point, so I would be very, very keen to carry on this conversation with UNC, and even if it is us, I mean, just because of the location, so that you feel secure in terms of where the assets sit within the company and everything, you know, I'd be very happy to sort of look at registering in Delaware or somewhere that makes it more valuable to you as well, you know, please do give it some thought, and get back to me and see what you think, and what we can do together, because I definitely do see a future of it.  Yes, me too, me too, actually.
+
+50:53 - Sam (samirechchttioui@gmail.com)
+  It's, if we were working on this type of project... Make everything work, even the UI and everything. So it could be a really valid and big product.  It's not really, I don't know if you want to, where is the focus market? Are going to stay on the market?
+
+51:18 - Plan My Wedding Info
+  We had said Southern Africa, we're going to saturate Southern Africa to start. And then we've already had agents in Kenya and Nigeria approach us, but we want to make sure that we have saturated Southern Africa first.  Because I think you can scale too quickly as well. So we need to make sure South Africa, Mauritius, Zimbabwe, Mozambique are all complete.  But also, if the tech allows for it to scale quickly, then it's easy enough to, at the moment, I'm not comfortable with scaling it, you know, across Africa without the proper...  Yes, because, yes, you're right. And we, what our goal is, is because it's a commission-based product, Because it's sort of like Airbnb, the success of the business is going to be reliant on the suppliers that come on board.  So we've got a goal of 50,000 suppliers in the next five years that will be on there. So if you can imagine, if we've got virtual tours, everything for these venues, out of 50,000 suppliers, it's a no-brainer for a couple sitting in the UK or Australia or America getting married in Southern Africa.  Obviously, they're going to want to come to the most reputable, the one that has the most suppliers available to them, things like that.  And so our sales team, they know we have to hit targets of 10,000 suppliers a year. That's 250 per month, you know, per agent.  So they all have their targets, but we are hitting these brick walls at the moment with the tech. So we can't, we can't get  Yes, yes.
+
+53:03 - Sam (samirechchttioui@gmail.com)
+  If you use a modern stack, the scalability is unlimited, because you can scale from 100 people to 1 million.
+
+53:14 - Plan My Wedding Info
+  That's very cool.
+
+53:17 - Sam (samirechchttioui@gmail.com)
+  That's the modern stack, because the modern stack, like for example, this is Airbnb. This is the web site. This stack here is using React.  You can see here. Yes, yes, yes.
+
+53:31 - Plan My Wedding Info
+  Whatever.
+
+53:34 - Sam (samirechchttioui@gmail.com)
+  Yeah, it makes sense.
+
+53:35 - Plan My Wedding Info
+  It's a no brainer actually, to be honest. Yes.
+
+53:40 - Sam (samirechchttioui@gmail.com)
+  So, like I said, the modern stack is supportive because the major websites have a lot of traffic, have like thousands and thousands of traffic every day.  They need to have a platform that is stable, that doesn't break. And if it's...
+
+53:58 - Plan My Wedding Info
+  Thank Thank you.
+
+54:00 - Sam (samirechchttioui@gmail.com)
+  And if it's, if it's breaking, you have a better user experience, you're not, the user cannot see the code error.
+
+54:10 - Plan My Wedding Info
+  100%. Yeah, yeah, yeah. No, I'm 100% with you. It's just, I don't have the experience or knowledge in terms of the tech side of things to make sure that that happens.
+  ACTION ITEM: Email Chelsea proposal re: engagement/partnership (scope, approach, cadence, Delaware) - WATCH: https://fathom.video/share/7k1S6qxp4pdNFayVcoZ8vmfSzsyQ3uuc?timestamp=3257.9999
+
+54:24 - Sam (samirechchttioui@gmail.com)
+  Yes, I can help you with that. I can help you with that, so.
+
+54:28 - Plan My Wedding Info
+  Thanks, Sam. Well, let's keep talking and give me, share your thoughts on how you, how, what you're thinking in terms of your involvement and how you think and, you know, what, I mean, would you be interested in coming on board with us, how that would look like?  Would you be keen on partnering with us and we do this together? You let me know. Okay, perfect. Yes.  Amazing, Sam. Thank you so much. We'll keep in touch. I think we, our call's ending soon now. Yes, yes, yes.
+
+54:57 - Sam (samirechchttioui@gmail.com)
+  Thank you, Chelsea.
+
+54:58 - Plan My Wedding Info
+  Have a nice day. Thank you. Have a lovely lovely day. We'll chat soon. Bye-bye. Goodbye.
