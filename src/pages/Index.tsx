@@ -1,12 +1,12 @@
 import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { SlideSection } from "@/components/presentation/SlideSection";
 import { GlowOrb } from "@/components/presentation/GlowOrb";
 import { AnimatedText } from "@/components/presentation/AnimatedText";
 import { TechStack } from "@/components/presentation/TechStack";
 import { ValueCard } from "@/components/presentation/ValueCard";
 import { IntroAnimation } from "@/components/presentation/IntroAnimation";
-import { Code2, Rocket, Users, Zap, Target, Handshake, ShieldCheck, History as HistoryIcon, Search, Palette, Layers, Video, Sparkles, Microscope, Smartphone, AlertTriangle, Hourglass, EyeOff, Unlock, Smile, Compass, BrainCircuit, TrendingUp, Wand2, HeartHandshake, ScrollText, Armchair, Building2, LineChart, Calendar, Coins, Gem, Eye, Globe, X } from "lucide-react";
+import { Code2, Rocket, Users, Zap, Target, Handshake, ShieldCheck, History as HistoryIcon, Search, Palette, Layers, Video, Sparkles, Microscope, Smartphone, AlertTriangle, Hourglass, EyeOff, Unlock, Smile, Compass, BrainCircuit, TrendingUp, Wand2, HeartHandshake, ScrollText, Armchair, Building2, LineChart, Calendar, Coins, Gem, Eye, Globe, X, Play, Pause, Download, Volume2 } from "lucide-react";
 import { VideoEmbed } from "@/components/presentation/VideoEmbed";
 
 
@@ -294,6 +294,39 @@ The playbook is proven (Uber, Airbnb, M-Pesa), the market is massive, and the wi
 `;
 
 const StrategyModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
+
+  const togglePlayPause = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.pause();
+      } else {
+        audioRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/podcastbigopportunity.wav';
+    link.download = 'Strategic-Market-Blueprint-Audio.wav';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  // Reset play state when modal closes
+  const handleClose = () => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    setIsPlaying(false);
+    onClose();
+  };
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -302,7 +335,7 @@ const StrategyModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            onClick={onClose}
+            onClick={handleClose}
             className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50"
           />
           <motion.div
@@ -311,17 +344,56 @@ const StrategyModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             className="fixed inset-4 md:inset-10 z-[60] glass-card border border-primary/20 rounded-2xl overflow-hidden flex flex-col max-w-5xl mx-auto my-auto"
           >
+            {/* Hidden audio element */}
+            <audio
+              ref={audioRef}
+              src="/podcastbigopportunity.wav"
+              onEnded={() => setIsPlaying(false)}
+            />
+
             <div className="flex items-center justify-between p-6 border-b border-white/10 bg-black/40">
               <div className="flex items-center gap-3">
                 <ScrollText className="w-6 h-6 text-primary" />
                 <h3 className="text-xl font-bold font-sora">Strategic Market Blueprint</h3>
               </div>
-              <button
-                onClick={onClose}
-                className="p-2 rounded-full hover:bg-white/10 transition-colors"
-              >
-                <X className="w-6 h-6" />
-              </button>
+
+              {/* Audio controls */}
+              <div className="flex items-center gap-2">
+                {/* Listen to Audio button */}
+                <button
+                  onClick={togglePlayPause}
+                  className="flex items-center gap-2 px-3 py-2 rounded-full bg-primary/10 hover:bg-primary/20 border border-primary/30 transition-all duration-300 group"
+                  title={isPlaying ? "Pause Audio" : "Listen to Strategy"}
+                >
+                  <Volume2 className="w-4 h-4 text-primary" />
+                  {isPlaying ? (
+                    <Pause className="w-4 h-4 text-primary" />
+                  ) : (
+                    <Play className="w-4 h-4 text-primary" />
+                  )}
+                  <span className="text-xs font-medium text-primary hidden sm:inline">
+                    {isPlaying ? "Pause" : "Listen"}
+                  </span>
+                </button>
+
+                {/* Download button */}
+                <button
+                  onClick={handleDownload}
+                  className="flex items-center gap-2 px-3 py-2 rounded-full bg-primary/10 hover:bg-primary/20 border border-primary/30 transition-all duration-300"
+                  title="Download Audio"
+                >
+                  <Download className="w-4 h-4 text-primary" />
+                  <span className="text-xs font-medium text-primary hidden sm:inline">Download</span>
+                </button>
+
+                {/* Close button */}
+                <button
+                  onClick={handleClose}
+                  className="p-2 rounded-full hover:bg-white/10 transition-colors ml-2"
+                >
+                  <X className="w-6 h-6" />
+                </button>
+              </div>
             </div>
             <div className="flex-1 overflow-y-auto p-8 font-mono text-sm leading-relaxed text-muted-foreground bg-black/20">
               <pre className="whitespace-pre-wrap font-sans max-w-none">{strategyContent}</pre>
@@ -914,6 +986,104 @@ const Index = () => {
         </div>
       </SlideSection>
 
+      {/* Slide: Performance Analysis */}
+      <SlideSection className="py-20 relative overflow-hidden">
+        {/* Subtle red background gradient */}
+        <div className="absolute inset-0 bg-red-500/5 z-0 pointer-events-none" />
+
+        <div className="relative z-10 px-6 w-full max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+
+            <div className="order-2 lg:order-1">
+              <AnimatedText as="span" className="text-red-400 text-sm uppercase tracking-widest font-medium" delay={0}>
+                Performance Crisis
+              </AnimatedText>
+              <AnimatedText as="h2" className="font-sora text-3xl md:text-5xl font-bold mt-4 mb-6" delay={0.1}>
+                Crippling <span className="text-red-400">Page Speed</span>
+              </AnimatedText>
+              <AnimatedText as="p" className="text-lg text-muted-foreground leading-relaxed mb-6" delay={0.2}>
+                Google PageSpeed Insights reveals the brutal truth: the current platform is critically slow.
+                Every second of delay costs conversions, frustrates users, and damages search rankings.
+              </AnimatedText>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.3 }}
+                className="space-y-4"
+              >
+                <div className="glass-card p-4 rounded-xl border border-red-500/20 bg-red-500/5 flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-lg bg-red-500/10 flex items-center justify-center">
+                    <span className="text-red-500 font-bold text-lg">0-49</span>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-foreground text-sm">Critical Performance Score</h4>
+                    <p className="text-xs text-muted-foreground">Google flags the site as "Poor" — users leave before content loads.</p>
+                  </div>
+                </div>
+
+                <div className="glass-card p-4 rounded-xl border border-red-500/20 bg-red-500/5 flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center text-red-400">
+                    <Hourglass className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-foreground text-sm">10+ Second Load Times</h4>
+                    <p className="text-xs text-muted-foreground">Unoptimized images, render-blocking scripts, and bloated CSS destroy speed.</p>
+                  </div>
+                </div>
+
+                <div className="glass-card p-4 rounded-xl border border-red-500/20 bg-red-500/5 flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-red-500/10 flex items-center justify-center text-red-400">
+                    <TrendingUp className="w-5 h-5 rotate-180" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-foreground text-sm">SEO Penalty Zone</h4>
+                    <p className="text-xs text-muted-foreground">Google demotes slow sites. You're losing organic traffic every day.</p>
+                  </div>
+                </div>
+
+                <div className="mt-6 p-4 bg-gradient-to-r from-red-500/10 to-transparent rounded-xl border-l-4 border-red-500">
+                  <p className="text-sm text-foreground/80 italic">
+                    "53% of mobile users abandon sites that take longer than 3 seconds to load."
+                  </p>
+                  <p className="text-xs text-muted-foreground mt-1">— Google Research</p>
+                </div>
+              </motion.div>
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="order-1 lg:order-2"
+            >
+              <div className="relative rounded-2xl overflow-hidden border-2 border-red-500/30 shadow-2xl bg-black">
+                <div className="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-red-500/20 to-transparent z-10 pointer-events-none" />
+                <div className="absolute -top-1 -right-1 px-3 py-1 bg-red-500 text-white text-xs font-bold rounded-bl-lg z-20">
+                  LIVE AUDIT
+                </div>
+                <VideoEmbed
+                  type="vimeo"
+                  src="https://player.vimeo.com/video/1146375198?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&muted=1&loop=1&background=1"
+                  title="Google PageSpeed Insights Analysis"
+                />
+              </div>
+              <div className="mt-4 flex justify-center gap-6 text-sm text-muted-foreground font-mono">
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-red-500 animate-pulse" />
+                  <span>PageSpeed Insights</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Target className="w-4 h-4 text-red-400" />
+                  <span>Core Web Vitals</span>
+                </div>
+              </div>
+            </motion.div>
+
+          </div>
+        </div>
+      </SlideSection>
+
       {/* Slide: Error Handling / User Trust */}
       <SlideSection className="py-20 relative overflow-hidden">
         {/* Subtle red background gradient for alarm */}
@@ -1130,7 +1300,8 @@ const Index = () => {
             </AnimatedText>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          {/* First row - 3 cards */}
+          <div className="grid md:grid-cols-3 gap-6 mb-6">
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -1177,10 +1348,30 @@ const Index = () => {
               </p>
             </motion.div>
 
+          </div>
+
+          {/* Second row - 3 cards */}
+          <div className="grid md:grid-cols-3 gap-6">
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
+              className="glass-card p-6 rounded-xl border border-white/5 hover:border-primary/50 transition-colors group"
+            >
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4 group-hover:scale-110 transition-transform">
+                <Palette className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-bold mb-2">AI Wedding Website Builder</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Couples answer a few simple questions, and AI generates a beautiful, personalized wedding website in minutes—no coding or design skills needed.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
               className="glass-card p-6 rounded-xl border border-white/5 hover:border-primary/50 transition-colors group"
             >
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4 group-hover:scale-110 transition-transform">
@@ -1190,6 +1381,24 @@ const Index = () => {
               <p className="text-sm text-muted-foreground leading-relaxed">
                 AI scans complex PDF contracts from vendors to highlight hidden fees, cancellation policies, and non-standard terms instantly.
               </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+              className="glass-card p-6 rounded-xl border border-primary/20 bg-gradient-to-br from-primary/5 to-primary/10 hover:border-primary/60 transition-colors group relative overflow-hidden"
+            >
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-50" />
+              <div className="relative z-10">
+                <div className="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center text-primary mb-4 group-hover:scale-110 transition-transform">
+                  <Sparkles className="w-6 h-6" />
+                </div>
+                <h3 className="text-xl font-bold mb-2">& Many More...</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  The only limit is creativity and user feedback. We'll continuously innovate and build features that truly solve your users' problems.
+                </p>
+              </div>
             </motion.div>
 
           </div>
@@ -1448,6 +1657,107 @@ const Index = () => {
             </motion.div>
 
           </div>
+        </div>
+      </SlideSection>
+
+      {/* Slide: Founder's Expertise & Background */}
+      <SlideSection className="py-20">
+        <div className="relative z-10 px-6 w-full max-w-6xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <AnimatedText as="span" className="text-primary text-sm uppercase tracking-widest font-medium" delay={0}>
+              Why I Understand Your Journey
+            </AnimatedText>
+            <AnimatedText as="h2" className="font-sora text-3xl md:text-5xl font-bold mt-4 mb-6" delay={0.1}>
+              <span className="text-gradient">Founder to Founder</span>
+            </AnimatedText>
+            <AnimatedText as="p" className="text-lg text-muted-foreground leading-relaxed" delay={0.2}>
+              I'm not just a developer—I'm a founder who has walked in your shoes. I understand the challenges
+              of building a business, the pressure of marketing, and the need to move fast with limited resources.
+            </AnimatedText>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="glass-card p-8 rounded-2xl border border-primary/20 bg-gradient-to-br from-background to-primary/5 hover:border-primary/50 transition-colors"
+            >
+              <div className="flex items-start gap-4 mb-6">
+                <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                  <BrainCircuit className="w-7 h-7" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">AI & Automation Expert</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    I've spent years implementing AI-driven workflows and automation systems. I know how to integrate
+                    cutting-edge AI into your business processes to save time, reduce costs, and create competitive advantages.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-2 mt-4">
+                <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-medium">
+                  Workflow Automation
+                </span>
+                <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-medium">
+                  AI Integration
+                </span>
+                <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-medium">
+                  Process Optimization
+                </span>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="glass-card p-8 rounded-2xl border border-primary/20 bg-gradient-to-br from-background to-primary/5 hover:border-primary/50 transition-colors"
+            >
+              <div className="flex items-start gap-4 mb-6">
+                <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
+                  <TrendingUp className="w-7 h-7" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Marketing Background</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    As a founder, I've been in the trenches of marketing—running campaigns, analyzing metrics, and
+                    understanding what drives growth. I know the pain points because I've lived them.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-2 mt-4">
+                <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-medium">
+                  Growth Strategy
+                </span>
+                <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-medium">
+                  User Acquisition
+                </span>
+                <span className="px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-medium">
+                  Data Analytics
+                </span>
+              </div>
+            </motion.div>
+
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="mt-8 max-w-3xl mx-auto"
+          >
+            <div className="glass-card p-8 rounded-2xl border border-primary/20 bg-gradient-to-br from-background to-primary/5 text-center">
+              <HeartHandshake className="w-12 h-12 text-primary mx-auto mb-4" />
+              <h3 className="text-2xl font-bold mb-3">I'll Help You Leverage AI in Your Workflow</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Beyond building your platform, I'll show you how to use AI and automation to streamline your operations,
+                improve your marketing, and scale faster. You'll get not just a product, but a strategic partner who
+                understands the full spectrum of building and growing a business.
+              </p>
+            </div>
+          </motion.div>
         </div>
       </SlideSection>
 
